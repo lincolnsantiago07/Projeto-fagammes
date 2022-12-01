@@ -1,0 +1,9 @@
+:root {
+    /* cores */
+    --cor-principal: #2ba84a;
+    --cor-secundaria: #77ffc0;
+    --cor-terciaria: #00ff8052;
+    --backgroud-color: #040f0f;
+    --cor-txt-principal: #fff;
+    --cor-sombra: rgb(50, 54, 49);
+}

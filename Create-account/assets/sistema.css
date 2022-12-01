@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif, system-ui;
+    color: var(--cor-txt-principal);
+}
+
+h1, h2{
+    font-size: 35px;
+    color: var(--cor-txt-principal);
+}
+
+h2{
+    font-size: 18px;
+    color: var(--cor-secundaria);
+}
+
+a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-size: 50px;
+    padding: 30px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--cor-txt-principal);
+}
+
+.m-5{
+    padding-top: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body{
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url('https://www.remessaonline.com.br/blog/wp-content/uploads/2021/12/shutterstock_1504484342-scaled.jpg.optimal.jpg' );
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.table-bg{
+    background: var(--cor-principal);
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}

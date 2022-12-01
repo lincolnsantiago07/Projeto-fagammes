@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/variables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   
+    <link rel="stylesheet" type="text/css" href="assets/">
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <title>Fagammes</title>
+</head>
+<body>      
+
+    
+        <!-- nav links -->
+        <header>
+            <a href="index.html" class="logo"><img src="assets/fagames_branco.webp" alt="logo"></a>
+            <div class="menu-toggle"></div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active"">Home</a></li>
+                        <li><a href="../Create-account/create-account.php">Entrar</a></li>
+                        <li><a href="../Create-Team/index.html">Criar Time</a></li>
+                        <li><a href="#jogos">Jogos</a></li>
+                        <li><a href="#map">Local</a></li>
+                    </ul>
+                </nav>
+                <div class="clearfix"></div>
+        </header>
+
+        <!-- Counter -->
+        <section class="Container-counter">
+            <h2>Dias até o campeonato</h2>
+            <p>
+            Nosso campeonato logo se iniciará, até lá, você já pode adiantar as coisas por aqui :)
+            </p>
+            <div class="time-content">
+            <div class="time days">
+                <span class="number"></span>
+                <span class="text">Dias</span>
+            </div>
+            <div class="time hours">
+                <span class="number"></span>
+                <span class="text">Horas</span>
+            </div>
+            <div class="time minutes">
+                <span class="number"></span>
+                <span class="text">Minutos</span>
+            </div>
+            <div class="time seconds">
+                <span class="number"></span>
+                <span class="text">Segundos</span>
+            </div>
+            </div>
+                <div class="email-content">
+                <p>Entre com seu email para receber as noticias!</p>
+        
+                <div class="input-box">
+                    <input type="email" placeholder="Entre com seu email" name="email" maxlength="25" minlength="5"/>
+                    <button id="pop-up">Notique-me</button>
+                </div>
+                </div>  
+            <!-- notificação -->
+            <div class="toast">
+                <div class="toast-content">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+
+                    <div class="message">
+                        <span class="text text-1">Prontinho!</span>
+                        <span class="text text-2">Enviaremos um e-mail com atualizações :)</span>
+                    </div>
+                </div>
+                <i class="fa-solid fa-xmark close"></i>
+
+                <div class="progress"></div>
+            </div>
+        </section>
+
+        
+        <!-- Banner -->
+        <div class="banner">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="banner-text">
+                        <p>Venha participar!</p>
+                        <p>A FAGAMES é a maior competição de jogos de Lavras!</p
+                    </div>
+                    <div class="sub-text">
+                        <p>Venha disputar presencialmente!</p>
+                    </div>
+                    <a href="/Create-account/create-account.html">
+                        <button class="register-button"> Comece agora!</button>
+                    </a>
+                    <div class="games">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARDS -->
+        <main class="cards" id="jogos">
+            <div class="container-cards">
+                <article class="card">
+                    <a href="../Team-CSGO/index.html">
+                        <img src="https://viciados.net/wp-content/uploads/2019/08/counter-strike-global-offensive-uhd-4k-wallpaper-scaled.jpg" alt="CS GO">
+                    </a>
+                    <div class="inner">
+                        <a href="../Team-CSGO/index.html"> CS:GO</a>
+                        <p>
+                            O jogo coloca dois times de cinco jogadores um contra o outro, com cada time tendo que completar certos objetivos para vencer.
+                            <br>
+                            Uma equipe assume o papel dos Terroristas (Ts), enquanto a outra equipe são os Contra-Terroristas (CTs).
+                            <br>
+                            Existem vários modos de jogo disponíveis, mas os jogos de e-sports profissionais são sempre jogados no modo Competitivo 5 x 5 
+                            (5 contra 5).
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a href="../Team-Valorant/index.html">
+                        <img src="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/5a52c72d-80fc-4c3f-bc24-52b09ab9896a_2560x1440-12a1d9b80efd050055faa72feee71f8e"
+                        alt="Valorant">
+                    </a>
+                    <div class="inner">
+                        <a href="../Team-Valorant/index.html"> Valorant</a>
+                        <p>
+                            Valorant é um jogo de tiro online e multiplayer no qual dois grupos com cinco jogadores se enfrentam nos 
+                            diversos mapas de Valorant, inspirados em locais do mundo real. 
+                            <br>
+                            Uma diferença crucial entre Valorant e as diferentes versões de Counter-Strike é que os Agentes, os 
+                            personagens do game, possuem habilidades únicas que podem ser ativadas em meio a partida.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a href="/Team-LOL/index.html">
+                        <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f"
+                        alt="League of Legends">
+                    </a>
+                    <div class="inner">
+                        <a href="/Team-LOL/index.html"> League of Legends</a>
+                        <p>
+                            League of Legends é um jogo gratuito de MOBA distribuído pela Riot Games. 
+                            <br>
+                            Ele é disponibilizado para PC e foi  inspirado no modo Defense of the Ancients 
+                            de Warcraft III. 
+                            <br>
+                            Nele temos duas equipes de 5 campeões cada disputando
+                            uma vitória na batalha dentro do mapa do jogo.
+                        </p>
+                    </div>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <img src="https://i0.wp.com/trivela.com.br/wp-content/uploads/2021/09/FIFA-22-scaled.jpg?fit=2560%2C1440&ssl=1" 
+                        alt="FIFA 22">
+                    </a>
+                    <div class="inner">
+                        <a href="#"> FIFA 22</a>
+                        <p>
+                            FIFA 22 é um jogo eletrônico de simulação de futebol. 
+                            <br>
+                            O jogo é composto por diversos modos de jogo, esses são: Modo Carreira, Ultimate team, Pro Clubs e Volta Football.  
+                        </p>
+                    </div>
+                </article>
+                <article class="card">
+                    <a href="#">
+                        <img src="https://images.hdqwalls.com/download/supercell-clash-royale-hd-qhd-2560x1440.jpg" alt="Clash Royale">
+                    </a>
+                    <div class="inner">
+                        <a href="#"> Clash Royale</a>
+                        <p>
+                            Clash Royale consiste em um jogo de estratégia no qual se lutará contra um adversário aleatório. 
+                            <br>
+                            O objetivo é destruir as torres inimigas usando cartas que poderão ser desbloqueadas ao longo do tempo. 
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </main>
+        
+
+        <!-- Agenda -->
+        <div class="agenda-container">
+            <div class="agenda">
+                <!-- Adiciona um novo calendário -->
+                <div class="agenda-content">
+                    <div class="agenda-text">
+                        <p>Quarta-Feira</p
+                    </div>
+                    <div class="sub-text">
+                        <p>Agenda dos torneios</p>
+                    </div>
+                    <div class="canto">
+                    </div>
+                    <div class="chave-1">
+                        <div class="time-1">  
+                            <p>Nome do jogo (md5)</p>
+                        </div>
+                        <div class="nome-time-1">
+                            <p>Time 1 x Time 2</p>
+                        </div>
+                        <div class="time-2">   
+                            <p>Nome do jogo (md5)</p>
+                        </div>
+                        <div class="nome-time-2">
+                            <p>Time 3 x Time 4 </p>
+                        </div>         
+                    </div>
+                </div>
+            </div>
+
+                <div class="agenda-content">
+                    <div class="agenda-text-2">
+                        <p>Quinta-feira</p
+                    </div>
+                    <div class="chave-1">
+                        <div class="time-1">  
+                            <p>Nome do jogo (md5)</p>
+                        </div>
+                        <div class="nome-time-1">
+                            <p>Time 1 x Time 2 </p>
+                        </div>
+                        <div class="time-2">   
+                            <p>Nome do jogo (md5)</p>
+                        </div>
+                        <div class="nome-time-2">
+                            <p>Time 3 x Time 4</p>
+                        </div>         
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Stream / Map -->
+
+            <div class="video">
+                <div class="video">
+                    <div class="video-content">
+                        <div class="video-text">
+                            <p>Vem assistir a transmição ao vivo!</p
+                        </div>
+                        <div class="sub-text">
+                            <p>Entraremos ao vivo quando o campeonato começar :)</p>
+                        </div>
+                        <iframe width="30%" height="315" src="https://www.youtube.com/embed/NUGiJhg4ufs" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container" id="map">
+                <div class="map">
+                    <div class="map-content">
+                        <div class="map-text">
+                            <p>Ou venha assistir de perto!</p
+                        </div>
+                        <div class="sub-text">
+                            <p>Nosso campeonato é presencial! Vem conhecer a gente :)</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.6892652792603!2d-44.99853629289045!3d-21.241480067933065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ffd890afc4a4d%3A0x2b8ce2393f348eb!2sFAGAMMON!5e0!3m2!1spt-BR!2sbr!4v1660457145560!5m2!1spt-BR!2sbr" 
+                        width="80%" height="650" style="border:0;" allowfullscreen="" loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- FOOTER -->
+        <footer>
+            <div class="footer-content">
+                <h3>Fagammon</h3>
+                <p>Texto</p>
+                <ul class="socials">
+                    <li><a href="https://pt-br.facebook.com/fagammon/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/fagammon/"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 Fagammon. designed with 💖</p>
+            </div>
+        </footer>
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="assets/script.js" type="text/javascript"></script>
+    <script defer src="assets/scrollreveal.js"></script>
+</body>
+
+</html>
