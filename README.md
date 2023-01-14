@@ -1,7 +1,7 @@
-# 👩‍💻 Fagammes
+# Fagammes 👩‍💻 
   Um esqueleto de site feito para um projeto da faculdade
  
- ## 🤷‍♂️ Do que se trata?
+ ## Do que se trata? 🤷‍♂️
   O site foi desenvolvido através de uma competição entre os alunos da sala, onde o melhor site entraria no ar em um evento voltado para a própria faculdade.
   <br>
   
